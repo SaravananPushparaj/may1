@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Octbatch" duration-ms="68088" started-at="2016-05-13T11:00:38Z" finished-at="2016-05-13T11:01:46Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Scenario_Search.testInvalid_Search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_Component.Scenario_Search@704a52ec]" name="testInvalid_Search" class="Scenario_Component.Scenario_Search"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="RegSet1" duration-ms="68088" started-at="2016-05-13T11:00:38Z" finished-at="2016-05-13T11:01:46Z">
+      <class name="Scenario_Component.Scenario_Search">
+        <test-method status="PASS" signature="testInvalid_Search(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Scenario_Component.Scenario_Search@704a52ec]" name="testInvalid_Search" duration-ms="67546" started-at="2016-05-13T16:30:39Z" data-provider="dp_InvalidSearch" finished-at="2016-05-13T16:31:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GB_01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bbbjsffgh4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sorry! There are no products to display.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalid_Search -->
+      </class> <!-- Scenario_Component.Scenario_Search -->
+    </test> <!-- RegSet1 -->
+  </suite> <!-- Octbatch -->
+</testng-results>
